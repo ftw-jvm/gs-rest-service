@@ -14,4 +14,4 @@ $ mvn -P native package -DskipTests
 $ target/rest-service-complete
 ```
 
-Then, access the endpoint http://localhost:8080/greeting
+Then, access the endpoint http://localhost:8080/greeting?name=SII
