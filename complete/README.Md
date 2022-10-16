@@ -8,6 +8,8 @@ https://docs.spring.io/spring-native/docs/current/reference/htmlsingle/#_sample_
 
 To run:
 ```
+$ mvn package -DskipTests
+$ java -jar target/rest-service-complete-0.0.1-SNAPSHOT.jar
 $ mvn -P native package -DskipTests
 $ target/rest-service-complete
 ```
